@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500&family=Kreon:wght@500;600&family=PT+Sans:ital@0;1&family=Roboto+Serif:ital,opsz,wght@0,8..144,600;1,8..144,500&family=Roboto+Slab:wght@300&display=swap");
+
+* {
+    color: #fff;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #31333e;
+    display: flex;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0 200px 0;
+}
+
+.side-bar {
+    background-color: #272d32;
+    width: 350px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.info{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 11px;
+    padding: 10px;
+}
+input{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 12px 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 54px 55px,
+     rgba(0, 0, 0, 0.05) 0 -12px 30px,
+    rgba(0, 0, 0, 0.05) 0 4px 6px,
+    rgba(0, 0, 0, 0.05) 0 12px 3px,
+    rgba(0, 0, 0, 0.09) 0 -3px 5px;
+}
+input:focus{
+    outline: none;
+}
+
+.input-container{
+    width: 100%;
+max-width: 650px;
+position: relative;
+}
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.input-container #submit{
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    cursor: pointer;
+}
+button {
+    border: solid 0.5px rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav{
+    border-top: solid 0.5px rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+}
+.history{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.history p {
+    cursor: pointer;
+}
+.main h1 {
+    color: #414141cc;
+}
